@@ -6,6 +6,17 @@
 </div>
 <img src='https://i.imgur.com/5UIudWU.png' >
 ## About The Project
+**Why I choose VUE 3 **
+* In Vue 3, the way to create components was changed, with the introduction of Composition API. It allows you to divide the parts of the component to separate files, to then be re-used.
+**And Why Tailwind CSS?**
+* Faster UI building process
+* It is a utility-first CSS framework so we can build custom designs without writing CSS as in traditional approach. 
+
+**I built a Vue.js front-end User Application in that:**
+- List out all the users in the data table.
+- We can create, retrieve, update, delete Users. 
+- There is a Search bar for finding Users by their name.
+- We can filter out the users'data into ascending or descending order.
 
 ### Built With
 
@@ -37,8 +48,10 @@
 <img src='https://i.imgur.com/ENCGPYo.png'>
 
 **Let me explain:**
--UserApi.js initializes axios with HTTP base Url and headers.
--In Vue 3 with the introduction of Composition API ,to have a CRUD of users I will use a Composition API thing called composable, which is a separate file that will contain all the methods we need
+- UserApi.js initializes axios with HTTP base Url and headers.
+- To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need
+
+
 
 
 
