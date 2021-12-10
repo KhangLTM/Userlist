@@ -5,7 +5,7 @@
      Simple and minimalist user list !
   </p>
 </div>
-https://i.imgur.com/5UIudWU.png
+ <img src="https://i.imgur.com/5UIudWU.png" alt="Logo">
 
 ## About The Project
 
