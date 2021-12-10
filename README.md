@@ -55,9 +55,7 @@
 **Let me explain:**
 - UserApi.js initializes axios with HTTP base Url and headers.
 - To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need
--There are 2 main components:
-UserIndex to display all users's information and main content of the app<br>
-UserForm to Create or Update user's information 
+-There are 2 main components: UserIndex to display main content of the app and UserForm to Create or Update user's information 
 
 
 
