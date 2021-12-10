@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">USER LIST WITH VUE 3</h3>
   <p align="center">
-     Simple and minimalist user list made with VUE 3 and TAILWIND !
+     Simple minimalist and responsive user list made with VUE 3 and TAILWIND !
   </p>
 </div>
  <img src="https://i.imgur.com/5UIudWU.png" alt="Logo">
