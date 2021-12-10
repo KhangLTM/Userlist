@@ -5,12 +5,15 @@
   </p>
 </div>
 <img src='https://i.imgur.com/5UIudWU.png' >
+
 ## About The Project
 
 **Why I choose VUE 3**
 
 * In Vue 3, the way to create components was changed, with the introduction of Composition API. It allows you to divide the parts of the component to separate files, to then be re-used.
+
 **And Why Tailwind CSS?**
+
 * Faster UI building process
 * It is a utility-first CSS framework so we can build custom designs without writing CSS as in traditional approach. 
 
