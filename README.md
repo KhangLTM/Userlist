@@ -4,7 +4,7 @@
      Simple minimalist and responsive user list made with VUE 3 and TAILWIND !
   </p>
 </div>
-![Project Image](https://i.imgur.com/5UIudWU.png)
+[Project Image](https://i.imgur.com/5UIudWU.png)
 ## About The Project
 
 Here's why:
