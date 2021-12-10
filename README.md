@@ -4,8 +4,7 @@
      Simple minimalist and responsive user list made with VUE 3 and TAILWIND !
   </p>
 </div>
- <img src="https://i.imgur.com/5UIudWU.png" alt="Logo">
-
+![Project Image](https://i.imgur.com/5UIudWU.png)
 ## About The Project
 
 Here's why:
@@ -41,5 +40,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 ## Usage
 
 ### API SETUP
+
+
 To have a CRUD of USERS, I will use a Composition API thing called Composable, which is a separate file that will contain all the methods we need. 
 
