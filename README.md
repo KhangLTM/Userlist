@@ -24,7 +24,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 ### Installation
 
-1.  API ENDPOINTS  at [https://reqres.in/api/users](https://reqres.in/api/users)
+1.  API endpoint  at [https://reqres.in/api/users](https://reqres.in/api/users)
 
 2. Clone the repo
     ```
@@ -38,6 +38,6 @@ Of course, no one template will serve all projects since your needs may be diffe
    ```sh
       npm run serve
    ```
-
+## Usage
 
 
