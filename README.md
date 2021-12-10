@@ -4,20 +4,14 @@
      Simple minimalist and responsive user list made with VUE 3 and TAILWIND !
   </p>
 </div>
-[Project Image](https://i.imgur.com/5UIudWU.png)
+<img src='https://i.imgur.com/5UIudWU.png' >
 ## About The Project
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
 ### Built With
 
-* [Vue.js](https://vuejs.org/)
-* [Tailwind](https://tailwindcss.com)
+* [Vue.js 3](https://vuejs.org/)
+* [Tailwind 2.2.17](https://tailwindcss.com)
+* [Vue-router 4](https://next.router.vuejs.org)
 
 ## Getting Started
 
@@ -38,9 +32,14 @@ Of course, no one template will serve all projects since your needs may be diffe
       npm run serve
    ```
 ## Usage
+###Project Structure
+<img src='https://i.imgur.com/ENCGPYo.png' >
+**Let me explain:**
+-UserApi.js initializes axios with HTTP base Url and headers.
+-In Vue 3 with the introduction of Composition API ,to have a CRUD of users I will use a Composition API thing called composable, which is a separate file that will contain all the methods we need
 
-### API SETUP
 
 
-To have a CRUD of USERS, I will use a Composition API thing called Composable, which is a separate file that will contain all the methods we need. 
+
+
 
