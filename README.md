@@ -32,8 +32,10 @@
       npm run serve
    ```
 ## Usage
-###Project Structure
-<img src='https://i.imgur.com/ENCGPYo.png' >
+
+### Project Structure
+<img src='https://i.imgur.com/ENCGPYo.png'>
+
 **Let me explain:**
 -UserApi.js initializes axios with HTTP base Url and headers.
 -In Vue 3 with the introduction of Composition API ,to have a CRUD of users I will use a Composition API thing called composable, which is a separate file that will contain all the methods we need
