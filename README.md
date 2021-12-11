@@ -10,7 +10,7 @@
 
 **Why I choose VUE 3 ?**
 
-* In Vue 3, the way to create components was changed, with the introduction of Composition API. It allows you to divide the parts of the component to separate files, to then be re-used.
+* In Vue 3, the way to create components was changed, with the introduction of Composition API. It allows us to divide the parts of the component to separate files, to then be re-used , make code readable and easy to maintain .
 
 **And Why Tailwind CSS ?**
 
@@ -55,7 +55,7 @@
 **Let me explain:**
 - UserApi.js initializes axios with HTTP base Url and headers.
 - To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need
-- There are 2 main components: UserIndex to display main content of the app and UserForm to Create or Update user's information 
+- There are 2 main components: ListUser to display main content of the app and UserForm to Create or Update user's information 
 
 ### User Composable
 
