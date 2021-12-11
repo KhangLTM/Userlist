@@ -125,7 +125,7 @@ After the filtering process is completed , we must retrieve the filtered list an
 ```
 2. **Search for user** 
 
-Similar to the filter function we also take all user information and display the results by user's name according to the keyword the user enters .
+Similar to the filter function we also take all user information and display the results according to the keyword the user enters .
 
 ```javascript
  //Inside SearchUser.vue
