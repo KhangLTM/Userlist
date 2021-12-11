@@ -84,7 +84,7 @@ In order to be able to filter out the users'data into ascending or descending or
         let res = await getPageData({page:pageNo}); // I get the data from the current page.
         if (res.length > 0) {
           EntireUserList.value= EntireUserList.value.concat(res) //Push the page's data to EntireUserList
-          res.concat(await getEntireUserList(pageNo+1));//Run back the function for the next page till the last page.  
+          res.concat(await getEntireUserList(pageNo+1));//Run back the function for till the last page.  
         } else { 
             return 
         }
