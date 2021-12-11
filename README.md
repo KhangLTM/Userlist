@@ -150,4 +150,4 @@ vngo5419@gmail.com
 ## Acknowledgments
 * [Tailwind Components](https://tailwindcomponents.com)
 * [Google Icons](https://fonts.google.com/icons) 
-* [Google Font](https://https://fonts.google.com)
+* [Google Font](https://fonts.google.com)
