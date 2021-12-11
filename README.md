@@ -63,11 +63,11 @@
 
 ### Problems that i find very challenging to deal with 
 
- Filter Entire User's List 
+**Filter Entire User's List** 
 
 In order to be able to filter the list or search for users, we must take all the user data.
 
-######Inside Users.js I create a function that takes all user information through the Paginated API by recursion .######
+Inside Users.js I create a function that takes all user information through the Paginated API by recursion .
 
 ```javascript
   const getEntireUserList = async (pageNo=1)=>{
@@ -82,9 +82,12 @@ In order to be able to filter the list or search for users, we must take all the
       }
 ```
 
+When we choose the filter options 
+```javascript
+ <li @click="setFilter('no')" :class="{'bg-blue-200':filtertype=='no'}" class="transition duration-200  ease-in-out  hover:bg-blue-200  py-2     font-md">Sort: No Sort</li>
+                <li @click="setFilter('asc')" :class="{'bg-blue-200':filtertype=='asc'}" class="transition duration-200  ease-in-out  hover:bg-blue-200 py-2  font-md">Sort name : A ➝ Z</li>
+                <li @click="setFilter('des')" :class="{'bg-blue-200':filtertype=='des'}" class="transition duration-200  ease-in-out  hover:bg-blue-200 py-2  font-md">Sort name : Z ➝ A</li>
 
-######
-
-
+```
 
 
