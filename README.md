@@ -82,12 +82,35 @@ Inside Users.js I create a function that takes all user information through the 
       }
 ```
 
-When we choose the filter options 
-```javascript
- <li @click="setFilter('no')" :class="{'bg-blue-200':filtertype=='no'}" class="transition duration-200  ease-in-out  hover:bg-blue-200  py-2     font-md">Sort: No Sort</li>
-                <li @click="setFilter('asc')" :class="{'bg-blue-200':filtertype=='asc'}" class="transition duration-200  ease-in-out  hover:bg-blue-200 py-2  font-md">Sort name : A ➝ Z</li>
-                <li @click="setFilter('des')" :class="{'bg-blue-200':filtertype=='des'}" class="transition duration-200  ease-in-out  hover:bg-blue-200 py-2  font-md">Sort name : Z ➝ A</li>
+The list will be filtered according to our filtering options , we exceute the filter data function with 
+two dependencies ,filteredData-where data is stored after filtering and EntrireUserList-the results we mentioned above. 
 
+```javascript
+ //Inside ListUser.vue
+ const filterData = (data) => {
+            isFilter.value = true
+            switch (data) {
+                case 'asc':
+                    filteredData.value = Array.from(EntireUserList.value).sort((a, b) => {
+                        if (a.first_name < b.first_name) return -1
+                        return a.first_name > b.first_name ? 1 : 0 })
+                    break;
+                case 'des':
+                    filteredData.value = Array.from(EntireUserList.value).sort((a, b) => {
+                        if (a.first_name > b.first_name) return -1
+                        return a.first_name < b.first_name ? 1 : 0 })
+                    break;
+                default:
+                    isFilter.value = false
+            }
+        }
 ```
+After the filtering process is completed , ưe must retrieve the filtered list and divide it by each page and display users data based on the list we just filtered.
+```javscript
+ const filterbyPage = computed(() => {
+            return filteredData.value.slice(entries.value, entries.value + 6)
+     })
+```
+
 
 
