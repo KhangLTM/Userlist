@@ -66,7 +66,7 @@
 
 ### Few Problems that i find very challenging to deal with 
 
-**Filter Entire User's List** 
+1. **Filter Entire User's List** 
 
 In order to be able to filter out the users'data into ascending or descending order or search for users, we must take all the user data.
 
@@ -116,7 +116,7 @@ After the filtering process is completed , we must retrieve the filtered list an
             return filteredData.value.slice(entries.value, entries.value + 6)
      })
 ```
-**Search for user** 
+2. **Search for user** 
 
 Similar to the filter function we also take all user information and display the results by user's name according to the keyword the user enters .
 
