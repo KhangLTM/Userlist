@@ -61,6 +61,7 @@
 <div align='center'>
   <img src='https://i.imgur.com/ENCGPYo.png'>
 </div>
+
 **Let me explain:**
 - UserApi.js initializes axios with HTTP base Url and headers.
 - To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need 
