@@ -66,7 +66,7 @@
 
 ### Problems that i find very challenging to deal with 
 
-**Filter Entire User's List ** 
+**Filter Entire User's List** 
 
 In order to be able to filter out the users'data into ascending or descending order or search for users, we must take all the user data.
 
