@@ -120,7 +120,7 @@ After the filtering process is completed , we must retrieve the filtered list an
 ###### I use computed to detect changes when the user navigates the page to redisplay the list corresponding to the current page. ######
 ```javascript
  const filterbyPage = computed(() => {
-            return filteredData.value.slice(entries.value, entries.value + 6)
+            return filteredData.value.slice(entries.value, entries.value + data.value.per_page)
      })
 ```
 2. **Search for user** 
