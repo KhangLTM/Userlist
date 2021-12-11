@@ -6,6 +6,7 @@
 </div>
 
 <img src='https://i.imgur.com/5UIudWU.png'>
+<img src='https://i.imgur.com/5UIudWU.png'>
 
 
 ## About The Project
@@ -58,7 +59,7 @@
 - UserApi.js initializes axios with HTTP base Url and headers.
 - To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need
 - There are 2 main components: ListUser to display main content of the app and UserForm to Create or Update user's information .
-- 
+- In addition to the search and filter function , i create Modal(Edit and Crate) for resposive design and it's mobile-friendly
 
 
 ### Problems that i find very challenging to deal with 
@@ -83,7 +84,7 @@ In order to be able to filter out the users'data into ascending or descending or
 ```
 
 The list will be filtered according to our filtering options , we exceute the filter data function with 
-two dependencies, **filteredData**-where data is stored after filtering and **EntrireUserList**-cotain the all user's data we mentioned above. 
+two dependencies, **filteredData**-where data is stored after filtering and **EntrireUserList**-cotain all user's data we mentioned above. 
 
 ```javascript
  //Inside ListUser.vue
@@ -106,14 +107,14 @@ two dependencies, **filteredData**-where data is stored after filtering and **En
         }
 ```
 After the filtering process is completed , we must retrieve the filtered list and divide it by each page and display users data based on the list we just filtered in ascending or descending order
-```javscript
+```javascript
  const filterbyPage = computed(() => {
             return filteredData.value.slice(entries.value, entries.value + 6)
      })
 ```
 **Search for user** 
 Similar to the filter function we also take all user information and display the results by user's name according to the keyword the user enters .
-```javscirpt
+```javascirpt
    //Inside SearchUser.vue
    const searchedList = computed(() => {
             return EntireUserList.value.filter(user =>
