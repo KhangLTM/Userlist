@@ -148,6 +148,6 @@ Ngo Vi Khang
 vngo5419@gmail.com
 
 ## Acknowledgments
-* [Tailwind Components](tailwindcomponents.com)
-* [Google Icons](fonts.google.com/icons) 
-* [Google Font](https://fonts.google.com)
+* [Tailwind Components](https://tailwindcomponents.com)
+* [Google Icons](https://fonts.google.com/icons) 
+* [Google Font](https://https://fonts.google.com)
