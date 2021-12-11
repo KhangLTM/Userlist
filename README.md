@@ -126,6 +126,9 @@ Similar to the filter function we also take all user information and display the
             )
         })
 ```
+<div align="center">
+ <img src='https://i.imgur.com/ELCIzUZ.png' >
+</div>
 
 ## Contact
 
