@@ -64,7 +64,7 @@
  <img src='https://i.imgur.com/mQRZdWk.png' >
 </div>
 
-### Problems that i find very challenging to deal with 
+### Few Problems that i find very challenging to deal with 
 
 **Filter Entire User's List** 
 
@@ -127,6 +127,10 @@ Similar to the filter function we also take all user information and display the
         })
 ```
 
-**Create and Update Form 
+##Contact
+Ngo Vi Khang -[My facebook](https://www.facebook.com/khang.ngovi.18)-vngo5419@gmail.com
 
-
+##Acknowledgments
+[Tailwind Components](tailwindcomponents.com)
+[Google Icons](fonts.google.com/icons) 
+[Google Font](https://fonts.google.com)
