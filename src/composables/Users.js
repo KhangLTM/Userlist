@@ -54,8 +54,11 @@ export default function useUser(){
     
     const deleteUser = async (id) => {
         let confirm=window.confirm('Want to delete this user ?')
-        if(confirm)  await User.delete(`users/${id}`)
-    }
+        if(confirm) { 
+            await User.delete(`users/${id}`)
+            alert('Please check inside Network log to see the API response')
+        }
+   }
     
       return {
             data,
