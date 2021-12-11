@@ -65,9 +65,9 @@
 
  Filter Entire User's List 
 
-**In order to be able to filter the list or search for users, we must take all the user data.**
+In order to be able to filter the list or search for users, we must take all the user data.
 
-#########Inside Users.js I create a function that takes all user information through the Paginated API by recursion .######
+#######Inside Users.js I create a function that takes all user information through the Paginated API by recursion .######
 
 ```javascript
   const getEntireUserList = async (pageNo=1)=>{
