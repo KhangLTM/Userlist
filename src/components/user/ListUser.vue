@@ -114,7 +114,7 @@ export default {
         
         const {page,pages,entries,totalEntries,setPages,setParam} = paginateUserList(data)
         const filterbyPage=computed(()=>{
-            return filteredData.value.slice(entries.value,entries.value+6)
+            return filteredData.value.slice(entries.value,entries.value+data.value.per_page)
         })
          
         //Filter User 
