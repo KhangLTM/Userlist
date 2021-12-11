@@ -116,8 +116,8 @@ After the filtering process is completed , we must retrieve the filtered list an
 **Search for user** 
 Similar to the filter function we also take all user information and display the results by user's name according to the keyword the user enters .
 
-```javascirpt
-   //Inside SearchUser.vue
+```javascript
+ //Inside SearchUser.vue
    const searchedList = computed(() => {
             return EntireUserList.value.filter(user =>
                 `${user.first_name} ${user.last_name}`.toLowerCase().includes(search.value.toLowerCase())
