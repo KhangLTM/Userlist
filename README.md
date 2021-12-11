@@ -93,7 +93,7 @@ In order to be able to filter out the users'data into ascending or descending or
 ```
 After that,we need to create the filter data function with two dependencies, **filteredData**-where data is stored after filtering and **EntrireUserList**-cotain all user's data we mentioned above. 
 
-###### Inside ListUser.js , I create a function to filter data filtered according to our filtering options  . ######
+###### Inside ListUser.vue , I create a function to filter data filtered according to our filtering options  . ######
 
 ```javascript
  
