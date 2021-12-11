@@ -11,8 +11,9 @@
 
 ## About The Project
 
-**LINK DEMO : https://userlist-khangltm.netlify.app
- 
+**LINK DEMO** : https://userlist-khangltm.netlify.app
+**SOURCE CODE : https://github.com/KhangLTM/Userlist 
+
 **Why I choose VUE 3 ?**
 
 * In Vue 3, the way to create components was changed, with the introduction of Composition API. It allows us to divide the parts of the component to separate files, to then be re-used , make code readable and easy to maintain .
