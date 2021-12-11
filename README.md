@@ -69,7 +69,7 @@
 
 Inside Users.js I create a function that takes all user information through the Paginated API by recursion .
 
-``
+```
   const getEntireUserList = async (pageNo=1)=>{
         let res = await getPageData({page:pageNo}); // I get the data from the current page.
         if (res.length > 0) {
@@ -80,7 +80,7 @@ Inside Users.js I create a function that takes all user information through the 
         }
         return res
       }
-``
+```
 
 
 ######
