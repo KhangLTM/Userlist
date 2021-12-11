@@ -56,7 +56,7 @@ export default function useUser(){
         let confirm=window.confirm('Want to delete this user ?')
         if(confirm) { 
             await User.delete(`users/${id}`)
-            alert('Please open Network before deleting log to check the API response')
+            alert('Please open Network log before deleting to check the API response')
         }
    }
     
