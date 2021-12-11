@@ -53,7 +53,7 @@
    ```
 4. Compiles and hot-reloads for development
    ```sh
-      npm run serve
+   npm run serve
    ```
 ## Usage
 
