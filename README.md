@@ -110,7 +110,7 @@ After that,we need to create the filter data function with two dependencies, **f
 ```
 After the filtering process is completed , we must retrieve the filtered list and divide it by each page and display users data based on the list we just filtered in ascending or descending order .
 
-###### Similarly, I use computed to detect changes when the user navigates the page to redisplay the list corresponding to the current page. ######
+###### I use computed to detect changes when the user navigates the page to redisplay the list corresponding to the current page. ######
 ```javascript
  const filterbyPage = computed(() => {
             return filteredData.value.slice(entries.value, entries.value + 6)
