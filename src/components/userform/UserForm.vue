@@ -53,7 +53,7 @@
 								</div>
 								<div class="flex-auto w-full mb-1 text-xs space-y-2">
 									<label class="font-semibold text-gray-600 py-2">Description</label>
-									<textarea required="" name="message" id="" class="w-full min-h-[100px] max-h-[300px] h-28 appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg  py-4 px-4 text-base font-bold" placeholder="Enter your comapny info" v spellcheck="false">Please turn your network logs before submitting to check the API response ! </textarea>
+									<textarea required="" name="message" id="" class="w-full min-h-[100px] max-h-[300px] h-28 appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg  py-4 px-4 text-base font-bold" placeholder="Enter your comapny info" v spellcheck="false">Please open your network logs before submitting to check the API response ! </textarea>
 								
 								</div>
 								<p class="text-xs text-red-500 text-right my-3">Required fields are marked with an
