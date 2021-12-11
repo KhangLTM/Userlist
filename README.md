@@ -63,9 +63,9 @@
 
 ### Problems that i find very challenging to deal with 
 
-**Filter Entire User's List** 
+**Filter Entire User's List ** 
 
-In order to be able to filter the list or search for users, we must take all the user data.
+In order to be able to filter out the users'data into ascending or descending order or search for users, we must take all the user data.
 
 ###### Inside Users.js I create a function that takes all user information through the Paginated API by recursion . ######
 
@@ -83,7 +83,7 @@ In order to be able to filter the list or search for users, we must take all the
 ```
 
 The list will be filtered according to our filtering options , we exceute the filter data function with 
-two dependencies ,filteredData-where data is stored after filtering and EntrireUserList-the results we mentioned above. 
+two dependencies, **filteredData**-where data is stored after filtering and **EntrireUserList**-cotain the all user's data we mentioned above. 
 
 ```javascript
  //Inside ListUser.vue
@@ -105,11 +105,21 @@ two dependencies ,filteredData-where data is stored after filtering and EntrireU
             }
         }
 ```
-After the filtering process is completed , ưe must retrieve the filtered list and divide it by each page and display users data based on the list we just filtered.
+After the filtering process is completed , we must retrieve the filtered list and divide it by each page and display users data based on the list we just filtered in ascending or descending order
 ```javscript
  const filterbyPage = computed(() => {
             return filteredData.value.slice(entries.value, entries.value + 6)
      })
+```
+**Search for user** 
+Similar to the filter function we also take all user information and display the results by user's name according to the keyword the user enters .
+```javscirpt
+   //Inside SearchUser.vue
+   const searchedList = computed(() => {
+            return EntireUserList.value.filter(user =>
+                `${user.first_name} ${user.last_name}`.toLowerCase().includes(search.value.toLowerCase())
+            )
+        })
 ```
 
 
