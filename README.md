@@ -4,7 +4,8 @@
      Simple minimalist and responsive user list made with VUE 3 and TAILWIND !
   </p>
 </div>
-<img src='https://i.imgur.com/5UIudWU.png' >
+![asdasdasd][https://i.imgur.com/5UIudWU.png]
+
 
 ## About The Project
 
@@ -56,8 +57,6 @@
 - UserApi.js initializes axios with HTTP base Url and headers.
 - To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need
 - There are 2 main components: ListUser to display main content of the app and UserForm to Create or Update user's information 
-
-### User Composable
 
 
 ### Two Problems that i find very challenging
