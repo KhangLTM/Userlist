@@ -57,7 +57,7 @@
 
 **Let me explain:**
 - UserApi.js initializes axios with HTTP base Url and headers.
-- To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need
+- To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need 
 - There are 2 main components: ListUser to display main content of the app and UserForm to Create or Update user's information .
 - In addition to the search and filter function , I create Modal(Edit and Crate) for resposive and mobile-friendly design .
  <div align="center">
@@ -127,5 +127,6 @@ Similar to the filter function we also take all user information and display the
         })
 ```
 
+**Create and Update Form 
 
 
