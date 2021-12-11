@@ -7,7 +7,6 @@
 
 <p float="left">
   <img src='https://i.imgur.com/5UIudWU.png'>
-  <img src='https://i.imgur.com/1X1dU0G.png'>
 
 <p>
 
@@ -61,8 +60,8 @@
 - UserApi.js initializes axios with HTTP base Url and headers.
 - To have a CRUD of users I will use a Composition API thing called composable,which is a separate file that will contain all the methods we need
 - There are 2 main components: ListUser to display main content of the app and UserForm to Create or Update user's information .
-- In addition to the search and filter function , i create Modal(Edit and Crate) for resposive design 
-
+- In addition to the search and filter function , i create Modal(Edit and Crate) for resposive and mobile-friendly design .
+ <img src='https://i.imgur.com/mQRZdWk.png' >
 
 ### Problems that i find very challenging to deal with 
 
