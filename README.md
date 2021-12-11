@@ -6,7 +6,7 @@
 </div>
 
 <img src='https://i.imgur.com/5UIudWU.png'>
-<img src='https://i.imgur.com/5UIudWU.png'>
+<img src='https://i.imgur.com/1X1dU0G.png'>
 
 
 ## About The Project
