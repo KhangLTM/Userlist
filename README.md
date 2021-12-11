@@ -5,11 +5,11 @@
   </p>
 </div>
 
-<div object-fit='cover'>
+<p float="left">
   <img src='https://i.imgur.com/5UIudWU.png'>
   <img src='https://i.imgur.com/1X1dU0G.png'>
 
-<div>
+<p>
 
 ## About The Project
 
@@ -116,6 +116,7 @@ After the filtering process is completed , we must retrieve the filtered list an
 ```
 **Search for user** 
 Similar to the filter function we also take all user information and display the results by user's name according to the keyword the user enters .
+
 ```javascirpt
    //Inside SearchUser.vue
    const searchedList = computed(() => {
