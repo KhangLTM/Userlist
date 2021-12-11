@@ -91,7 +91,7 @@ In order to be able to filter out the users'data into ascending or descending or
         return res
       }
 ```
-After that,we need to create the filter data function with two dependencies, **filteredData**-where data is stored after filtering and **EntrireUserList**-cotain all user's data we mentioned above. 
+After that,we need to create the filter data function with two dependencies, **filteredData**-where data is stored after filtering and **EntrireUserList**-contain all user's data we mentioned above. 
 
 ###### Inside ListUser.vue , I create a function to filter data filtered according to our filtering options  . ######
 
