@@ -65,6 +65,23 @@
 
 ###### Filter Entire User's List 
 
+**In order to be able to filter the list or search for users, we must take all the user data.**
+
+Inside Users.js I create a function that takes all user information through the Paginated API by recursion .
+
+``
+  const getEntireUserList = async (pageNo=1)=>{
+        let res = await getPageData({page:pageNo}); // I get the data from the current page.
+        if (res.length > 0) {
+          EntireUserList.value= EntireUserList.value.concat(res) //Push the page's data to EntireUserList
+          res.concat(await getEntireUserList(pageNo+1));//Run back the function for the next page till the last page.  
+        } else { 
+            return 
+        }
+        return res
+      }
+``
+
 
 ######
 
