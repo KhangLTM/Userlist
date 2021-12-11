@@ -142,7 +142,9 @@ Similar to the filter function we also take all user information and display the
 ## Contact
 
 Ngo Vi Khang 
+
 [My facebook](https://www.facebook.com/khang.ngovi.18)
+
 vngo5419@gmail.com
 
 ## Acknowledgments
